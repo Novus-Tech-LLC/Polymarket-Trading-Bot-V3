@@ -1,6 +1,6 @@
-<div align="center">
-# Polymarket Copy Trading Bot
-</div>
+<h1 align="center">
+Polymarket Copy Trading Bot
+</h1>
 
 <div align="center">
 
