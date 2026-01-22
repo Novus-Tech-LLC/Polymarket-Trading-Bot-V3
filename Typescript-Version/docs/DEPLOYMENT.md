@@ -19,7 +19,7 @@ This guide covers deploying the Polymarket Copy Trading Bot to production enviro
 
 ```bash
 git clone <repository-url>
-cd polymarket-copytrading-bot
+cd polymarket-trading-bot-v3
 cp .env.example .env
 # Edit .env with your configuration
 ```
@@ -87,7 +87,7 @@ After=network.target mongod.service
 [Service]
 Type=simple
 User=your-user
-WorkingDirectory=/path/to/polymarket-copytrading-bot
+WorkingDirectory=/path/to/polymarket-trading-bot-v3
 Environment="NODE_ENV=production"
 ExecStart=/usr/bin/node dist/index.js
 Restart=always
@@ -240,11 +240,11 @@ mongorestore --uri="mongodb://localhost:27017/polymarket_copytrading" /backup/20
 
 ```bash
 # Backup MongoDB volume
-docker run --rm -v polymarket-copytrading-bot_mongodb-data:/data -v $(pwd):/backup \
+docker run --rm -v polymarket-trading-bot-v3_mongodb-data:/data -v $(pwd):/backup \
   alpine tar czf /backup/mongodb-backup.tar.gz /data
 
 # Restore
-docker run --rm -v polymarket-copytrading-bot_mongodb-data:/data -v $(pwd):/backup \
+docker run --rm -v polymarket-trading-bot-v3_mongodb-data:/data -v $(pwd):/backup \
   alpine tar xzf /backup/mongodb-backup.tar.gz -C /
 ```
 

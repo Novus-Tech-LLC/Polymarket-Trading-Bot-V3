@@ -23,7 +23,7 @@ Before starting, ensure you have:
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd polymarket-copytrading-bot-v1
+cd polymarket-trading-bot-v3-v1
 
 # Install packages
 npm install

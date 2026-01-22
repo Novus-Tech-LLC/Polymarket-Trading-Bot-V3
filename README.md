@@ -1,4 +1,6 @@
+<div align="center">
 # Polymarket Copy Trading Bot
+</div>
 
 <div align="center">
 
@@ -167,7 +169,7 @@ The **Polymarket Copy Trading Bot** is a production-ready, enterprise-grade auto
 ### Project Structure
 
 ```
-polymarket-copytrading-bot/
+polymarket-trading-bot-v3/
 ├── Typescript-Version/          # TypeScript implementation
 │   ├── src/
 │   │   ├── application/         # Application layer
@@ -233,8 +235,8 @@ Before installation, ensure you have the following:
 
 ```bash
 # Clone the repository
-git clone https://github.com/Novus-Tech-LLC/polymarket-copytrading-bot.git
-cd polymarket-copytrading-bot/Typescript-Version
+git clone https://github.com/Novus-Tech-LLC/polymarket-trading-bot-v3.git
+cd polymarket-trading-bot-v3/Typescript-Version
 
 # Install dependencies
 npm install
@@ -256,8 +258,8 @@ npm start
 
 ```bash
 # Clone the repository
-git clone https://github.com/Novus-Tech-LLC/polymarket-copytrading-bot.git
-cd polymarket-copytrading-bot/Python-Version
+git clone https://github.com/Novus-Tech-LLC/polymarket-trading-bot-v3.git
+cd polymarket-trading-bot-v3/Python-Version
 
 # Install dependencies
 pip install -r requirements.txt
@@ -452,7 +454,7 @@ After=network.target
 [Service]
 Type=simple
 User=your-user
-WorkingDirectory=/path/to/polymarket-copytrading-bot/Typescript-Version
+WorkingDirectory=/path/to/polymarket-trading-bot-v3/Typescript-Version
 ExecStart=/usr/bin/node dist/index.js
 Restart=always
 RestartSec=10
@@ -709,7 +711,7 @@ For questions, issues, or support:
 
 - **📱 Telegram**: [@novustch](https://t.me/novustch)
 - **🐦 Twitter/X**: [@novustch](https://x.com/novustch)
-- **🐛 Issues**: [GitHub Issues](https://github.com/Novus-Tech-LLC/polymarket-copytrading-bot/issues)
+- **🐛 Issues**: [GitHub Issues](https://github.com/Novus-Tech-LLC/polymarket-trading-bot-v3/issues)
 - **📚 Documentation**: See [Documentation](#-documentation) section above
 
 ---
@@ -718,7 +720,7 @@ For questions, issues, or support:
 
 Made with ❤️ by [Novus Tech LLC](https://github.com/Novus-Tech-LLC)
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/Novus-Tech-LLC/polymarket-copytrading-bot)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/Novus-Tech-LLC/polymarket-trading-bot-v3)
 [![Telegram](https://img.shields.io/badge/Telegram-Support-blue?logo=telegram)](https://t.me/novustch)
 [![Twitter](https://img.shields.io/badge/Twitter-Follow-blue?logo=twitter)](https://x.com/novustch)
 

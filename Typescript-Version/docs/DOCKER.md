@@ -62,7 +62,7 @@ Get running in 3 commands:
 ```bash
 # 1. Clone and configure
 git clone <repository-url>
-cd polymarket-copytrading-bot
+cd polymarket-trading-bot-v3
 cp .env.example .env
 cp .env.docker.example .env.docker
 
@@ -643,8 +643,8 @@ Run multiple bots with different configurations:
 mkdir bot1 bot2
 
 # Copy config to each
-cp -r polymarket-copytrading-bot/* bot1/
-cp -r polymarket-copytrading-bot/* bot2/
+cp -r polymarket-trading-bot-v3/* bot1/
+cp -r polymarket-trading-bot-v3/* bot2/
 
 # Configure each with different:
 # - .env (different wallets, traders)

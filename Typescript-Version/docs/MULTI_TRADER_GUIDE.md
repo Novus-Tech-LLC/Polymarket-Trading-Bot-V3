@@ -185,5 +185,5 @@ MongoDB Collections:
 
 For questions or issues:
 
-- GitHub Issues: [Create an issue](https://github.com/Novus-Tech-LLC/Polymarket-Copytrading-Bot/issues)
+- GitHub Issues: [Create an issue](https://github.com/Novus-Tech-LLC/polymarket-trading-bot-v3/issues)
 - Telegram: https://t.me/novustch

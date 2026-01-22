@@ -34,7 +34,7 @@ Before starting, make sure you have:
 ```bash
 # Clone the repository
 git clone <repository-url>
-cd polymarket-copytrading-bot
+cd polymarket-trading-bot-v3
 
 # Install dependencies
 npm install

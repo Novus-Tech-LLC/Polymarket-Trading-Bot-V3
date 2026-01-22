@@ -5,7 +5,7 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        container_name: polymarket-copytrading-bot
+        container_name: polymarket-trading-bot-v3
         restart: unless-stopped
         env_file:
             - .env
